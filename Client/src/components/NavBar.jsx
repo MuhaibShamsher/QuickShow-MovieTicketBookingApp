@@ -21,11 +21,11 @@ function NavBar() {
           className='md:hidden absolute top-6 right-6 w-6 h-6 cursor-pointer4'
           onClick={() => setIsOpen(!isOpen)}
         />
-        <Link to='/' onClick={() => { scroll(0, 0), setIsOpen(false) }}>Home</Link>
-        <Link to='/movies' onClick={() => { scroll(0, 0), setIsOpen(false) }}>Movies</Link>
-        <Link to='/' onClick={() => { scroll(0, 0), setIsOpen(false) }}>Theaters</Link>
-        <Link to='/' onClick={() => { scroll(0, 0), setIsOpen(false) }}>Releases</Link>
-        <Link to='/favourite' onClick={() => { scroll(0, 0), setIsOpen(false) }}>Favourites</Link>
+        <Link to='/' onClick={() => { scroll(0, 0); setIsOpen(false) }}>Home</Link>
+        <Link to='/movies' onClick={() => { scroll(0, 0); setIsOpen(false) }}>Movies</Link>
+        <Link to='/' onClick={() => { scroll(0, 0); setIsOpen(false) }}>Theaters</Link>
+        <Link to='/' onClick={() => { scroll(0, 0); setIsOpen(false) }}>Releases</Link>
+        <Link to='/favourite' onClick={() => { scroll(0, 0); setIsOpen(false) }}>Favourites</Link>
       </div>
 
       <div className='flex items-center gap-8'>
