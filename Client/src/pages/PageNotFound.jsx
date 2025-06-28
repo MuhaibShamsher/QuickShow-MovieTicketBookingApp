@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowBigLeft, ArrowBigRight, ArrowBigRightDash, ArrowBigRightIcon } from 'lucide-react'
+import { ArrowBigRightIcon } from 'lucide-react'
 
 function PageNotFound() {
     return (
@@ -16,8 +16,7 @@ function PageNotFound() {
             </p>
 
             <Link to={'/'} class="group flex items-center gap-1 bg-white hover:bg-gray-200 px-7 py-2.5 text-gray-800 rounded-full mt-10 font-medium active:scale-95 transition-all">
-                Back to Home
-                <ArrowBigRightIcon />
+                Back to Home <ArrowBigRightIcon />
             </Link>
         </div>
     )
